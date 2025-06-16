@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>العاب تورنيتو</title>
+<link rel="stylesheet" href="style.css">
+<!-- CSS -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<meta name="google-site-verification" content="C33PA73a7sj7-DSlnpXXECHUvaChhzO9N9ShV5PnaPw" />
+
+</head>
+<body>
+
+    <header>
+        <div style="display: flex; align-items: center;">
+<img class="logo" src="image/logo.png" alt="">
+        <h1 >العاب تورنيتو</h1>
+        </div>
+        
+    </header>
+                    <!-- قسم السلايدر -->
+        <div class="room">
+            <div>
+                <h1>جديد الالعاب 🔥</h1>
+                <div class="single-slider-wrapper">
+                <button class="slider-btn prev-btn" id="prevBtn">&#10094;</button>
+                
+                <div class="single-slider" id="slider-container">
+                    <!-- الشرائح تنضاف ديناميكياً -->
+                </div>
+                
+                <button class="slider-btn next-btn" id="nextBtn">&#10095;</button>
+                </div>
+
+
+
+            </div>
+            <div>
+                <h2>↗ trending ↗</h2>
+               <div id="trending-box"></div>
+
+            </div>
+        </div>
+
+              <button  id="addBookBtn" >إضافة لعبة</button>
+
+        <div id="games-container"></div>
+        <div id="pagination"></div>
+
+
+  
+
+ 
+
+  
+  
+  
+  
+
+    <script type="module" src="firebasebase.js" ></script>
+</body>
+</html>
